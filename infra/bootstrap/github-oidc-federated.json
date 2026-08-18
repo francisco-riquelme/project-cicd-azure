@@ -1,6 +1,7 @@
 {
   "name": "github-master",
   "issuer": "https://token.actions.githubusercontent.com",
-  "subject": "repo:francisco-riquelme/project-cicd-azure:ref:refs/heads/master",
+  "subject": "repo:francisco-riquelme@213737320/project-cicd-azure@1337868966:ref:refs/heads/master",
+  "description": "GitHub Actions master branch (OIDC subject with repo IDs)",
   "audiences": ["api://AzureADTokenExchange"]
 }
