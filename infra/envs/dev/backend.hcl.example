@@ -1,0 +1,9 @@
+# Copia a backend.hcl y ajusta si hace falta.
+# backend.hcl no se sube a Git.
+#
+# Valores tomados del bootstrap (terraform output):
+
+resource_group_name  = "rg-ApiGo-CiCd-dev"
+storage_account_name = "storageapigodev"
+container_name       = "tfstate"
+key                  = "dev/terraform.tfstate"
