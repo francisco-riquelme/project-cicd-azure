@@ -1,0 +1,15 @@
+# Copia este archivo a terraform.tfvars y completa TUS valores.
+# terraform.tfvars no se sube a Git.
+
+location               = "eastus"
+resource_group_name    = "rg-TU-PROYECTO-shared"
+storage_account_name   = "sttuproyectotfstate01" # único global, solo a-z0-9, 3-24 chars
+storage_container_name = "tfstate"
+key_vault_name         = "kv-tu-proyecto-01"     # único global, 3-24 chars
+
+tags = {
+  project     = "tu-proyecto"
+  environment = "shared"
+  managed_by  = "terraform"
+  owner       = "tu-nombre"
+}
